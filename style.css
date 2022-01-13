@@ -1,0 +1,56 @@
+body {
+    background-color: lightskyblue;
+}
+
+.toggle-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    height: 60px;
+    padding: 80px 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}   
+
+.toggle-nav-ul {
+    width: 200px; 
+    visibility: hidden;
+}
+
+.toggle-nav-ul-visible {
+    width: 200px; 
+    visibility: visible;
+}
+
+.toggle-nav ul li {
+    line-height: 70px;
+    list-style: none;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.toggle-nav ul a {
+    text-decoration: none;
+}
+
+.home {
+    background-color: lightskyblue;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: lightgreen;
+}
+
